@@ -31,7 +31,7 @@ Key capabilities and architecture notes:
   - llama.cpp, served with llama-server.
   - Loaded on Acer as of 2026-04-10 11:43.
   - Best model so far.
-  - Notes should live under this model folder's matching quant folder.
+  - Notes should live under this model folder's matching quant-suffix folder.
 
 - Ollama variant, exact tag TBD.
   - Good first impression, but not yet studied enough to rank.
@@ -58,5 +58,5 @@ Key capabilities and architecture notes:
 At this model-file level, refer to GGUF quantizations by the quant suffix only.
 For example, use `UD-Q5_K_M`, not `gemma-4-26B-A4B-it-UD-Q5_K_M.gguf`,
 `4-26B-A4B-it-UD-Q5_K_M`, or any other longer variant. Use the same suffix for
-the matching folder under `quants/` so both agents and humans can identify the
-quant quickly.
+the matching folder directly under this model folder so both agents and humans
+can identify the quant quickly.
