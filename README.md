@@ -23,6 +23,7 @@ Specs:
 | Motherboard | Gigabyte B760M C V3 |
 | CPU | Intel Core i7-14700F |
 | GPU | NVIDIA GeForce RTX 5070 Ti |
+| VRAM | 16 GB GDDR7 |
 | RAM | 32 GB DDR5, 2 x 16 GB |
 | Storage | 2 TB NVMe SSD, AGI2T0G43AI818 |
 
@@ -35,12 +36,10 @@ RAM details:
 - installed DIMMs: Kingston `KF560C30-16`, 16 GB each, DDR5 UDIMM, configured at
   4800 MT/s
 
-### 2017 Razer Blade 
+### 2017 Razer Blade
 
-TBD if relevant - may host auxilliary edge-AIs (such as gemma-4-E4B or similar)
+TBD if relevant - may host auxiliary edge AIs, such as Gemma 4 E4B or similar.
 
-- 2 x Nvidia GTX 1060 w/ 6Gb VRAM (each)
-- 16Gb DDR4 (I think) RAM.
-- outdated intel i7.
-
-
+- 2 x NVIDIA GTX 1060 with 6 GB VRAM each.
+- 16 GB DDR4 RAM, I think.
+- Outdated Intel i7.
