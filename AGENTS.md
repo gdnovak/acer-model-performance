@@ -1,7 +1,6 @@
 # Agent Notes
 
-Addition to existing AGENTS.md/system instructions; do not replace them with these
-instructions.
+Addition to existing AGENTS.md/system instructions; do not replace them.
 
 If a lower-level AGENTS.md conflicts with this file, follow the lower-level rule
 only for that conflict and only in its scope. Otherwise, keep using this file plus
@@ -21,11 +20,11 @@ Guidance:
 - For model/quant naming conflicts, follow the closest applicable lower-level
   README or AGENTS.md.
 
-Navigation outside of repo:
+Navigation outside the repo:
 
-- Local LLMs are stored on host 'acer' which is accessed with 'tailscale ssh ai-admin@acer' 
-- You *MUST* ask for acer's sudo password if not in session log 
-- *NEVER* write sudo password to file outside of chat/session.
-- Repo on gdnovak's github (owner of all machines we will use), the macbook, and the acer called sysdir-v2.
-  - Read for instructions for using or navigating the lab. 
-  - Keep it updated according to its convention - unnecessary for minor changes. User will say 'update sysdir' or similar.
+- Local LLMs live on `acer`; access with `tailscale ssh ai-admin@acer`.
+- You *MUST* ask for Acer's sudo password if it is not in the session log.
+- *NEVER* write the sudo password to any file outside chat/session.
+- Lab navigation lives in `sysdir-v2`, on gdnovak's GitHub, the MacBook, and Acer.
+  - Read it for lab navigation and usage instructions.
+  - Update it only when asked with `update sysdir` or similar; skip minor changes.
